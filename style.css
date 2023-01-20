@@ -1,0 +1,165 @@
+/* 
+font-family: 'Inconsolata', monospace;
+font-family: 'Romanesco', cursive; */
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: black;
+}
+.btn-outline-primary {
+  color: white;
+  border-color: black;
+  border-radius: 0px;
+  font-family: 'Inconsolata', monospace;
+}
+.btn-outline-primary:hover {
+  background-color: black !important;
+  border-color: gray;
+  color: white;
+}
+.search {
+  border-radius: 2px;
+  background-color: #ECEBEA;
+  font-family: 'Inconsolata', monospace;
+  color: #1E2019; 
+  border: 1px solid #1E2019;
+}
+.login {
+  background-color: #BABD89;
+  border: 1px solid #637659;
+  width: 110%;
+  height: 40px;
+}
+.signup {
+  background-color: #394032;
+  border: 1px solid #394032;
+  width: 110%;
+  height: 40px !important;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 200,
+  'GRAD' 0,
+  'opsz' 48
+}
+.icon {
+  color: whitesmoke;
+  border: none !important;
+}
+.icon:hover {
+  color: #BABD89;
+}
+.button-general {
+  font-family: 'Inconsolata', monospace;
+  color: white !important;
+}
+.button-general:hover {
+  color: #BABD89 !important;
+}
+.dark {
+  background-color: #161412 !important;
+}
+h1, p{
+  color: white;
+  font-family: 'Inconsolata', monospace;
+  text-decoration: underline;
+  text-decoration-color: #394032;
+}
+.tabs {
+  border: 2px solid #BABD89;
+  border-left: none;
+  width: 15%;
+  height: 100%;
+  border-radius: 0px 40px 40px 0px;
+}
+.tabs:hover {
+  background-color: #BABD89;
+  color: black;
+  border-color: white;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+}
+#overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,1); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+#text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+#item {
+  border: 1px solid white;
+  border-radius: ;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  margin: 10px;
+  background-color: black;
+}
+#item:hover {
+  transform: scale(1.25);
+  color: yellow;
+}
+
+/* @keyframes mymove {
+  0% {top: 0px; left: 0px;}
+  14% {top: 5px; left: 5px;}
+  28% {top: 2px; left: 8px;}
+  42% {top: 0px; left: 5px;}
+  56% {top: 5px; left: -5px;}
+  70% {top: 2px; left: -8px;}
+  84% {top: 0px; left: -5px;}
+  100% {top: 0px; left: 0px;}
+} */
+.browse-tabs {
+  border-radius: 1px;
+}
+.browse-tabs span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.browse-tabs span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.browse-tabs:hover span {
+  content: "/2192";
+  position: relative;
+/*   animation: mymove 3s infinite; */
+  padding-right: 30px;
+  
+}
+.browse-tabs:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.carousel-control-next-icon {
+  
+}
