@@ -230,6 +230,5 @@ html, body {
   min-height: 200px;
 }
 .bord {
-  border-left: 2px white solid;
-  border-right: 2px white solid;
+  border: 2px white solid;
 }
